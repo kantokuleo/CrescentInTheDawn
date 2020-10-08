@@ -1,4 +1,30 @@
+
 <!DOCTYPE html>
+<script>
+function CharacterConnor() {
+	document.getElementById("demo").innerHTML = "就这就这???";
+}
+function CharacterMarkus() {
+	document.getElementById("demo").innerHTML = "你怎么回事???";
+}
+function CharacterKara() {
+	document.getElementById("demo").innerHTML = "行叭";
+}
+
+</script>
 <html>
-	<h1>辣辣 你怎么回事？？？</h1>
+	<head>
+		<link rel="stylesheet" href="index.css">
+	</head>
+
+	<body>
+	<img src="detroit_homepage.jpg" alt="DetroitHomepage" width="900" height="400" class="center"><br>
+	<a class="center">Choose a character that you want to experience.</a>
+	<h1 class="center">
+		<button onclick="CharacterConnor()">Connor</button>
+		<button onclick="CharacterMarkus()">Markus</button>
+		<button onclick="CharacterKara()">Kara</button>
+	</h1>
+	<p id="demo"></p>
+	</body>
 </html>
